@@ -1,0 +1,67 @@
+body {
+  background-color:#05208a;
+  }
+  .icon-color {
+    color: #FF6F00
+}
+.resume-container {
+  max-width: 800px; 
+  margin: auto; 
+  padding:10px; 
+  border-radius:10px; 
+  box-shadow:0 0 10px rgba(0,0,0,.1);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(50px);
+  }
+@keyframes fadeInUp {
+  from {
+      opacity: 0; 
+  transform: translateY(50px);}
+  to {
+      opacity: 1; 
+      transform: translateY(0);}
+        }
+h1,h2,h3,h4,h5,h6 {
+  padding-bottom:10px;
+  padding-left: 10px;
+    }
+hr {
+  border:none; 
+  height:1px; 
+  background-color:#0469b6;
+  }
+.section-title {
+  margin-bottom:15px;
+  color:#333;
+  }
+ul.list-unstyled {
+  padding-left:40;
+  margin-bottom:15px;
+  }
+ul.list-unstyled li::before {
+  font-weight:bold;
+  margin-right:.5rem;
+  color:#333;
+  }
+a.text-primary {
+  text-decoration:none;
+  }
+a.text-primary:hover {
+  text-decoration:underline;
+  }
+.fadeInUp {
+  animation-name: fadeInUp; 
+  animation-duration: 1s; 
+  animation-fill-mode: forwards;
+  }
+form {
+  margin-top: 200px;
+  }
+button[type='submit'] {
+  margin-top: 10px;
+  }
+  .gallery-carousel img {
+  height: 300px;
+  object-fit: cover;
+  }
